@@ -1,0 +1,17 @@
+{
+  "description": "个人博客网站",  # 这里写你网站的简短描述
+  "owner": {
+    "name": "张三丰",            # 你的名字
+    "github": "bimaojun",  # 你的GitHub用户名
+    "email": "asd555555@vip.qq.com"  # 你的联系邮箱
+  },
+  "records": [
+    {
+      "type": "A",              # 记录类型，常用A或CNAME
+      "name": "@",              # @代表域名本身
+      "content": "220.200.126.50", # 关键！这里填写你服务器的IP地址或域名（稍后我们填GitHub Pages的IP）
+      "ttl": 3600,              # DNS缓存时间，保持默认即可
+      "proxied": false          # 保持false
+    }
+  ]
+}
